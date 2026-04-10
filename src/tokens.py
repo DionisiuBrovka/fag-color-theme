@@ -85,21 +85,71 @@ COLORS_TOKENS = {
 ACCENT_COLORS_TOKENS = {
     'default': {
         'dark': {    
-            "main-accent" : "#3D4BB9",
+            "main-accent" : "#3584e4",
         },
 
         'light': {
-            "main-accent" : "#3D4BB9",
+            "main-accent" : "#3584e4",
         }
     },
 
     'green': {
         'dark': {    
-            "main-accent" : "#35BD3C",
+            "main-accent" : "#33d17a",
         },
 
         'light': {
-            "main-accent" : "#35BD3C",
+            "main-accent" : "#33d17a",
+        }
+    },
+
+    'yellow': {
+        'dark': {    
+            "main-accent" : "#f6d32d",
+        },
+
+        'light': {
+            "main-accent" : "#f6d32d",
+        }
+    },
+
+    'orange': {
+        'dark': {    
+            "main-accent" : "#ff7800",
+        },
+
+        'light': {
+            "main-accent" : "#ff7800",
+        }
+    },
+
+    'red': {
+        'dark': {    
+            "main-accent" : "#e01b24",
+        },
+
+        'light': {
+            "main-accent" : "#e01b24",
+        }
+    },
+
+    'purple': {
+        'dark': {    
+            "main-accent" : "#9141ac",
+        },
+
+        'light': {
+            "main-accent" : "#9141ac",
+        }
+    },
+
+    'brown': {
+        'dark': {    
+            "main-accent" : "#986a44",
+        },
+
+        'light': {
+            "main-accent" : "#986a44",
         }
     },
 }

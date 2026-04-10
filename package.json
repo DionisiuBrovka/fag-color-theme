@@ -30,6 +30,56 @@
         "label": "FAG-green light color theme",
         "uiTheme": "vs",
         "path": "./themes/fag-green-light-color-theme.json"
+      },
+      {
+        "label": "FAG-yellow dark color theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fag-yellow-dark-color-theme.json"
+      },
+      {
+        "label": "FAG-yellow light color theme",
+        "uiTheme": "vs",
+        "path": "./themes/fag-yellow-light-color-theme.json"
+      },
+      {
+        "label": "FAG-orange dark color theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fag-orange-dark-color-theme.json"
+      },
+      {
+        "label": "FAG-orange light color theme",
+        "uiTheme": "vs",
+        "path": "./themes/fag-orange-light-color-theme.json"
+      },
+      {
+        "label": "FAG-red dark color theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fag-red-dark-color-theme.json"
+      },
+      {
+        "label": "FAG-red light color theme",
+        "uiTheme": "vs",
+        "path": "./themes/fag-red-light-color-theme.json"
+      },
+      {
+        "label": "FAG-purple dark color theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fag-purple-dark-color-theme.json"
+      },
+      {
+        "label": "FAG-purple light color theme",
+        "uiTheme": "vs",
+        "path": "./themes/fag-purple-light-color-theme.json"
+      },
+      {
+        "label": "FAG-brown dark color theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fag-brown-dark-color-theme.json"
+      },
+      {
+        "label": "FAG-brown light color theme",
+        "uiTheme": "vs",
+        "path": "./themes/fag-brown-light-color-theme.json"
       }
     ]
   },

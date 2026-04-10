@@ -5,7 +5,7 @@
   "colors": {
     "editor.background": "#000000",
     "editor.foreground": "#FFFFFF",
-    "activityBarBadge.background": "#3D4BB9",
+    "activityBarBadge.background": "#3584e4",
     "sideBarTitle.foreground": "#FFFFFF"
   },
   "tokenColors": [
@@ -17,7 +17,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#3D4BB9"
+        "foreground": "#3584e4"
       }
     }
   ]

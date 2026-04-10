@@ -1,11 +1,11 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "fag-$default-color-theme",
-  "type": "light",
+  "name": "fag-$orange-color-theme",
+  "type": "dark",
   "colors": {
     "editor.background": "#000000",
     "editor.foreground": "#FFFFFF",
-    "activityBarBadge.background": "#3584e4",
+    "activityBarBadge.background": "#ff7800",
     "sideBarTitle.foreground": "#FFFFFF"
   },
   "tokenColors": [
@@ -17,7 +17,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#3584e4"
+        "foreground": "#ff7800"
       }
     }
   ]
