@@ -1,7 +1,11 @@
 COLORS_TOKENS = {
+        "unset" : "#ff00ff",
         "black" : "#000000",
         "white" : "#FFFFFF",
         "transparent" : "#00000000",
+        "transparent-1" : "#00000033",
+        "transparent-2" : "#00000066",
+        "transparent-3" : "#00000099",
 
         "pallete-blue-1" : "#99c1f1",
         "pallete-blue-2" : "#62a0ea",
@@ -51,7 +55,7 @@ COLORS_TOKENS = {
         "pallete-light-4" : "#c0bfbc",
         "pallete-light-5" : "#9a9996",
 
-        "pallete-dark-1" : "#77767b",
+        "pallete-dark-1" : "#9a9996",
         "pallete-dark-2" : "#5e5c64",
         "pallete-dark-3" : "#3d3846",
         "pallete-dark-4" : "#241f31",
@@ -59,9 +63,9 @@ COLORS_TOKENS = {
 
     'dark': {    
         "panel-1" : "#000000",
-        "panel-2" : "#000000",
-        "panel-3" : "#000000",
-        "panel-4" : "#000000",
+        "panel-2" : "#1c1c1f",
+        "panel-3" : "#2e2e32",
+        "panel-4" : "#424246",
         "panel-5" : "#000000",
 
         "border-1" : "#000000",
