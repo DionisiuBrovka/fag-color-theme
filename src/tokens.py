@@ -62,14 +62,14 @@ COLORS_TOKENS = {
         "pallete-dark-5" : "#000000",
 
     'dark': {    
-        "panel-1" : "#000000",
+        "panel-1" : "#0f0f0f",
         "panel-2" : "#1c1c1f",
         "panel-3" : "#2e2e32",
         "panel-4" : "#424246",
         "panel-5" : "#000000",
 
         "border-1" : "#000000",
-        "border-2" : "#000000",
+        "border-2" : "#1c1c1f99",
         "border-3" : "#000000",
     },
 

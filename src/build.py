@@ -9,9 +9,9 @@ def build_color_theme(brightness:str, color:str, accent_color_dict:dict) -> dict
 
         "editorLineNumber.foreground": COLORS_TOKENS['unset'],
 
-        "editorGroup.border": COLORS_TOKENS['unset'],
+        "editorGroup.border": COLORS_TOKENS[brightness]['border-2'],
         "editorGroupHeader.tabsBackground": COLORS_TOKENS['unset'],
-        "editorGroupHeader.border": COLORS_TOKENS['unset'],
+        "editorGroupHeader.border": COLORS_TOKENS[brightness]['border-2'],
         "editorGroupHeader.tabsBorder": COLORS_TOKENS['unset'],
         
         "editorIndentGuide.activeBackground1": COLORS_TOKENS['unset'],
@@ -19,43 +19,46 @@ def build_color_theme(brightness:str, color:str, accent_color_dict:dict) -> dict
 
         "editorRuler.foreground": COLORS_TOKENS['unset'],
 
-        "editorBracketMatch.border": COLORS_TOKENS['unset'],
+        "editorBracketMatch.border": COLORS_TOKENS[brightness]['border-2'],
         "editorBracketMatch.background": COLORS_TOKENS['unset'],
 
         "sideBar.foreground": COLORS_TOKENS['unset'],
         "sideBar.background": COLORS_TOKENS[brightness]['panel-3'],
-        "sideBar.border": COLORS_TOKENS['unset'],
+        "sideBar.border": COLORS_TOKENS[brightness]['border-2'],
 		"sideBarTitle.foreground": COLORS_TOKENS['white'],
         "sideBarSectionHeader.background": COLORS_TOKENS['unset'],
-        "sideBarSectionHeader.border": COLORS_TOKENS['unset'],
+        "sideBarSectionHeader.border": COLORS_TOKENS[brightness]['border-2'],
 
         "activityBarBadge.background": ACCENT_COLORS_TOKENS[color][brightness]['main-accent'],
-		"activityBar.background": COLORS_TOKENS[brightness]['panel-3'],
-        "activityBar.border": COLORS_TOKENS['unset'],
-        "activityBar.dropBorder": COLORS_TOKENS['unset'],
-        "activityBar.activeBorder": COLORS_TOKENS['unset'],
-        "activityBar.foreground": COLORS_TOKENS['unset'],
+		
+        "activityBar.background": COLORS_TOKENS[brightness]['panel-3'],
+        "activityBar.border": COLORS_TOKENS[brightness]['border-2'],
+        "activityBar.dropBorder": COLORS_TOKENS['white'],
+        "activityBar.activeBorder": ACCENT_COLORS_TOKENS[color][brightness]['main-accent'],
+        "activityBar.foreground": COLORS_TOKENS['white'],
 
         "scrollbar.shadow": COLORS_TOKENS['transparent'],
         
         "button.background": COLORS_TOKENS['unset'],
-        "button.border": COLORS_TOKENS['unset'],
+        "button.border": COLORS_TOKENS[brightness]['border-2'],
         "button.hoverBackground": COLORS_TOKENS['unset'],
 
-        "statusBar.background": COLORS_TOKENS['unset'],
-        "statusBar.noFolderBackground": COLORS_TOKENS['unset'],
-        "statusBarItem.remoteBackground": COLORS_TOKENS['unset'],
-        "statusBar.foreground": COLORS_TOKENS['unset'],
-        "statusBar.noFolderForeground": COLORS_TOKENS['unset'],
-        "statusBar.debuggingForeground": COLORS_TOKENS['unset'],
-        "statusBarItem.remoteForeground": COLORS_TOKENS['unset'],
-        "statusBar.border": COLORS_TOKENS['unset'],
+        "statusBar.border": COLORS_TOKENS[brightness]['border-2'],
+        "statusBar.background": COLORS_TOKENS[brightness]['panel-4'],
+        "statusBar.noFolderBackground": COLORS_TOKENS[brightness]['panel-4'],
+        "statusBarItem.remoteBackground":COLORS_TOKENS[brightness]['panel-4'],
+        "statusBar.foreground": COLORS_TOKENS['white'],
+        "statusBar.noFolderForeground": COLORS_TOKENS['white'],
+        "statusBar.debuggingForeground": COLORS_TOKENS['white'],
+        "statusBarItem.remoteForeground": COLORS_TOKENS['white'],
 
-        "titleBar.activeBackground": COLORS_TOKENS['unset'],
-        "titleBar.border": COLORS_TOKENS['unset'],
+        "titleBar.activeBackground": COLORS_TOKENS[brightness]['panel-4'],
+        "titleBar.border": COLORS_TOKENS[brightness]['border-2'],
 
-        "panel.background": COLORS_TOKENS['unset'],
+        "commandCenter.background": COLORS_TOKENS[brightness]['panel-3'],
+        "commandCenter.border": COLORS_TOKENS[brightness]['border-2'],
 
+        "panel.background": COLORS_TOKENS[brightness]['panel-1'],
         "panelSectionHeader.background": COLORS_TOKENS['unset'],
         "panelSectionHeader.border": COLORS_TOKENS['unset'],
 
@@ -84,12 +87,8 @@ def build_color_theme(brightness:str, color:str, accent_color_dict:dict) -> dict
         "list.focusHighlightForeground": COLORS_TOKENS['unset'],
         "list.inactiveSelectionBackground": COLORS_TOKENS['unset'],
 
-        "panel.border": COLORS_TOKENS['unset'],
-
-        "input.background": COLORS_TOKENS['unset'],
-
-        "commandCenter.background": COLORS_TOKENS['unset'],
-        "commandCenter.border": COLORS_TOKENS['unset'],
+        "panel.border": COLORS_TOKENS[brightness]['border-2'],
+        "input.background": COLORS_TOKENS[brightness]['panel-2'],
 
         "panelTitle.activeBorder": COLORS_TOKENS['unset'],
         "panelTitle.activeForeground": COLORS_TOKENS['unset'],
