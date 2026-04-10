@@ -4,10 +4,10 @@ from tokens import ACCENT_COLORS_TOKENS, COLORS_TOKENS
 
 def build_color_theme(brightness:str, color:str, accent_color_dict:dict) -> dict:
     colors = {
-		"editor.background": COLORS_TOKENS[brightness]['black'],
-		"editor.foreground": COLORS_TOKENS[brightness]['white'],
+		"editor.background": COLORS_TOKENS['black'],
+		"editor.foreground": COLORS_TOKENS['white'],
 		"activityBarBadge.background": ACCENT_COLORS_TOKENS[color][brightness]['main-accent'],
-		"sideBarTitle.foreground": COLORS_TOKENS[brightness]['white']
+		"sideBarTitle.foreground": COLORS_TOKENS['white']
 	}
 
     token_colors = [
