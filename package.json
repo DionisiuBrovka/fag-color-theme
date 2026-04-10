@@ -1,0 +1,21 @@
+{
+  "name": "fag-theme",
+  "displayName": "FAG-theme",
+  "description": "My cool theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.115.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "FAG (Fedora-Adwaita-Gnome) Color theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/FAG (Fedora-Adwaita-Gnome) Color theme-color-theme.json"
+      }
+    ]
+  }
+}
