@@ -1,6 +1,5 @@
 # FAG Theme
 
-<!-- Logo: replace with images/logo.png when ready -->
 <!-- ![FAG Theme Logo](images/logo.png) -->
 
 > **F**edora **A**dwaita **G**nome — a VS Code color theme.  
@@ -10,30 +9,7 @@ A clean, minimal VS Code color theme inspired by [GNOME's Adwaita](https://gnome
 
 > 🇷🇺 [Читать на русском](README.ru.md) · [Roadmap](ROADMAP.md)
 
----
-
-## Screenshots
-
-<!-- Add screenshots to images/ and uncomment the lines below -->
-<!-- ![Dark theme preview](images/screenshot-dark.png) -->
-<!-- ![Light theme preview](images/screenshot-light.png) -->
-<!-- ![Accent colors overview](images/screenshot-accents.png) -->
-
----
-
-## Accent Colors
-
-| Accent | Dark | Light |
-|--------|------|-------|
-| Default (Blue) | ✓ | ✓ |
-| Green | ✓ | ✓ |
-| Yellow | ✓ | ✓ |
-| Orange | ✓ | ✓ |
-| Red | ✓ | ✓ |
-| Purple | ✓ | ✓ |
-| Brown | ✓ | ✓ |
-
----
+![Dark theme preview](images/Screenshot_001.png)
 
 ## Installation
 
@@ -49,7 +25,7 @@ A clean, minimal VS Code color theme inspired by [GNOME's Adwaita](https://gnome
 **Apply the theme:**  
 `Ctrl+Shift+P` → `Preferences: Color Theme` → search for `FAG`
 
----
+
 
 ### 2. Recommended VS Code settings
 
@@ -70,7 +46,7 @@ For the best experience, add these to your `settings.json`
 "workbench.preferredDarkColorTheme": "FAG-green dark color theme",
 ```
 
----
+
 
 ### 3. GNOME Shell — Rounded Window Corners
 
@@ -80,7 +56,7 @@ For the full Adwaita feel, install a rounded corners extension for GNOME Shell:
 - **GNOME 46+:** [flexagoon/rounded-window-corners](https://github.com/flexagoon/rounded-window-corners)  
   *(GNOME 50 support is not yet available)*
 
----
+
 
 ### 4. Custom UI Style
 
@@ -88,7 +64,7 @@ Install [vscode-custom-ui-style](https://github.com/subframe7536/vscode-custom-u
 
 Not required right now, but will be used in upcoming versions of the theme to style additional VS Code UI elements that the standard theme API doesn't expose.
 
----
+
 
 ## Building Locally
 
@@ -107,7 +83,7 @@ npm run build:color-themes
 
 This runs `cd src && python build.py` and regenerates all 14 theme files.
 
----
+
 
 ## Author
 

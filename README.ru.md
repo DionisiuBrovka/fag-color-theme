@@ -1,6 +1,5 @@
 # FAG Theme
 
-<!-- Логотип: замени на images/logo.png когда будет готов -->
 <!-- ![FAG Theme Logo](images/logo.png) -->
 
 > **F**edora **A**dwaita **G**nome — цветовая тема для VS Code.  
@@ -10,30 +9,7 @@
 
 > 🇬🇧 [Read in English](README.md) · [Roadmap](ROADMAP.md)
 
----
-
-## Скриншоты
-
-<!-- Добавь скриншоты в папку images/ и раскомментируй строки ниже -->
-<!-- ![Тёмная тема](images/screenshot-dark.png) -->
-<!-- ![Светлая тема](images/screenshot-light.png) -->
-<!-- ![Обзор акцентных цветов](images/screenshot-accents.png) -->
-
----
-
-## Акцентные цвета
-
-| Акцент | Тёмная | Светлая |
-|--------|--------|---------|
-| Default (синий) | ✓ | ✓ |
-| Зелёный | ✓ | ✓ |
-| Жёлтый | ✓ | ✓ |
-| Оранжевый | ✓ | ✓ |
-| Красный | ✓ | ✓ |
-| Фиолетовый | ✓ | ✓ |
-| Коричневый | ✓ | ✓ |
-
----
+![Dark theme preview](images/Screenshot_001.png)
 
 ## Установка
 
@@ -49,7 +25,7 @@
 **Применить тему:**  
 `Ctrl+Shift+P` → `Preferences: Color Theme` → найди `FAG`
 
----
+
 
 ### 2. Рекомендуемые настройки VS Code
 
@@ -70,7 +46,7 @@
 "workbench.preferredDarkColorTheme": "FAG-green dark color theme",
 ```
 
----
+
 
 ### 3. GNOME Shell — скруглённые углы окон
 
@@ -80,7 +56,7 @@
 - **GNOME 46+:** [flexagoon/rounded-window-corners](https://github.com/flexagoon/rounded-window-corners)  
   *(поддержка GNOME 50 пока недоступна)*
 
----
+
 
 ### 4. Custom UI Style
 
@@ -88,7 +64,7 @@
 
 Сейчас не обязательно, но будет использоваться в следующих версиях темы для стилизации элементов VS Code, которые стандартный API тем не позволяет изменять.
 
----
+
 
 ## Сборка локально
 
@@ -107,7 +83,7 @@ npm run build:color-themes
 
 Запускает `cd src && python build.py` и перегенерирует все 14 файлов тем.
 
----
+
 
 ## Автор
 
