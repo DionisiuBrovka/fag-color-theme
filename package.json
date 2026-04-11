@@ -12,14 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "FAG-default dark color theme",
+        "label": "FAG-defualt dark color theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/fag-default-dark-color-theme.json"
+        "path": "./themes/fag-defualt-dark-color-theme.json"
       },
       {
-        "label": "FAG-default light color theme",
+        "label": "FAG-defualt light color theme",
         "uiTheme": "vs",
-        "path": "./themes/fag-default-light-color-theme.json"
+        "path": "./themes/fag-defualt-light-color-theme.json"
       },
       {
         "label": "FAG-green dark color theme",
