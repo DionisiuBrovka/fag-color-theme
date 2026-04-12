@@ -7,6 +7,8 @@
 
 - [ ] Fix light themes — color issues
 - [ ] Fix input elements (radio buttons, text fields) — they blend into the background due to wrong color tokens
+- [ ] Add syntax highlighting token rules to `build.py` (currently only UI colors are defined)
+- [ ] Lower minimum VS Code engine version in `package.json` for VSCodium compatibility (currently `^1.115.0`; find the VSCodium base version and adjust accordingly)
 
 ## Planned
 

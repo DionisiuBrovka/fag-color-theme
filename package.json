@@ -1,8 +1,34 @@
 {
   "name": "fag-theme",
   "displayName": "FAG-theme",
-  "description": "My cool theme",
+  "description": "A dark and light color theme for VS Code inspired by GNOME/Adwaita aesthetics, with 7 accent colors.",
   "version": "0.0.1",
+  "publisher": "YOUR-PUBLISHER-ID",
+  "license": "MIT",
+  "icon": "images/logo.png",
+  "homepage": "https://github.com/DionisiuBrovka/fag-color-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DionisiuBrovka/fag-color-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DionisiuBrovka/fag-color-theme/issues"
+  },
+  "keywords": [
+    "theme",
+    "color theme",
+    "dark theme",
+    "light theme",
+    "gnome",
+    "adwaita",
+    "gtk",
+    "linux"
+  ],
+  "galleryBanner": {
+    "color": "#1e1e2e",
+    "theme": "dark"
+  },
+  "pricing": "Free",
   "engines": {
     "vscode": "^1.115.0"
   },

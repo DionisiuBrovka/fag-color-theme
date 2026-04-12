@@ -1,6 +1,8 @@
-# FAG Theme
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DionisiuBrovka/fag-color-theme/main/images/logo.png" alt="logo" width="120">
+</p>
 
-<!-- ![FAG Theme Logo](images/logo.png) -->
+<h1 align="center">Fedora Adwaita Gnome theme</h1>
 
 > **F**edora **A**dwaita **G**nome — цветовая тема для VS Code.  
 > Да, аббревиатура получилась FAG. Нет, нам не стыдно. Это Linux, привыкайте.
@@ -43,7 +45,6 @@
 "workbench.tree.indent": 14,
 "workbench.layoutControl.enabled": false,
 "workbench.browser.showInTitleBar": true,
-"workbench.preferredDarkColorTheme": "FAG-green dark color theme",
 ```
 
 
