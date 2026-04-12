@@ -19,8 +19,8 @@
 - [ ] Style scrollbars and other UI elements via [vscode-custom-ui-style](https://github.com/subframe7536/vscode-custom-ui-style)
 
 ### Publication
-- [ ] Prepare and publish to VS Code Marketplace
-- [ ] Add logo and screenshots to repository
+- [ ] Register publisher ID and publish to VS Code Marketplace
+- [ ] Add screenshots to repository (`images/`)
 - [ ] Finalize version and changelog
 
 ## Done
@@ -28,3 +28,6 @@
 - [x] Basic theme structure (14 themes: 7 accents × dark/light)
 - [x] Color token system (`tokens.py` + `build.py`)
 - [x] README (EN + RU)
+- [x] Prepared `package.json` for publication (publisher placeholder, license, icon, repository, keywords, galleryBanner)
+- [x] MIT license (`LICENSE`)
+- [x] Community files (`CONTRIBUTING.md`, `SECURITY.md`, `SUPPORT.md`)
