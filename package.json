@@ -30,12 +30,19 @@
   },
   "pricing": "Free",
   "engines": {
-    "vscode": "^1.115.0"
+    "vscode": "^1.112.0"
   },
   "categories": [
     "Themes"
   ],
   "contributes": {
+    "productIconThemes": [
+      {
+        "id": "fag-product-icons",
+        "label": "FAG Icons (Lucide)",
+        "path": "./themes/fag-product-icon-theme.json"
+      }
+    ],
     "themes": [
       {
         "label": "FAG-defualt dark color theme",

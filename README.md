@@ -86,6 +86,10 @@ This runs `cd src && python build.py` and regenerates all 14 theme files.
 
 
 
+## Credits
+
+Product icons provided by [Lucide](https://lucide.dev/) (ISC License).
+
 ## Author
 
 **Dionisiu Brovka**

@@ -8,12 +8,12 @@
 - [ ] Fix light themes — color issues
 - [ ] Fix input elements (radio buttons, text fields) — they blend into the background due to wrong color tokens
 - [ ] Add syntax highlighting token rules to `build.py` (currently only UI colors are defined)
-- [ ] Lower minimum VS Code engine version in `package.json` for VSCodium compatibility (currently `^1.115.0`; find the VSCodium base version and adjust accordingly)
+- [ ] Lower minimum VS Code engine version in `package.json` for VSCodium compatibility (currently `^1.112.0`; find the VSCodium base version and adjust accordingly)
 
 ## Planned
 
 ### Icon Theme
-- [ ] Design and implement a custom VS Code icon theme
+- [ ] Polish product icon theme — check stroke vs fill rendering, adjust mappings if needed
 
 ### Custom UI Elements
 - [ ] Style scrollbars and other UI elements via [vscode-custom-ui-style](https://github.com/subframe7536/vscode-custom-ui-style)
@@ -31,3 +31,4 @@
 - [x] Prepared `package.json` for publication (publisher placeholder, license, icon, repository, keywords, galleryBanner)
 - [x] MIT license (`LICENSE`)
 - [x] Community files (`CONTRIBUTING.md`, `SECURITY.md`, `SUPPORT.md`)
+- [x] Product icon theme using Lucide font (`themes/fag-product-icon-theme.json`, `icons/lucide.woff`)

@@ -86,6 +86,10 @@ npm run build:color-themes
 
 
 
+## Благодарности
+
+Иконки интерфейса предоставлены [Lucide](https://lucide.dev/) (ISC License).
+
 ## Автор
 
 **Dionisiu Brovka**
